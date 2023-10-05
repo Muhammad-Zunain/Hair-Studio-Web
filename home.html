@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de9e1561cd.js" crossorigin="anonymous"></script>
+    <title>Hair Studio</title>
+</head>
+<body>
+    <header>
+        <!-- <div class="header-container container"> -->
+            <div id="sidenavbar">
+                <nav class="menu-items">  
+                    <ul>
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#features" class="text-white">Features</a></li>
+                        <li><a href="#services" class="text-white">Services</a></li>
+                        <li><a href="#testinomials" class="text-white">Testinomials</a></li>
+                        <li><a href="#contact" class="text-white">Meet Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="menubtn">
+                <img src="./img/menu.png" id="menu">
+            </div>
+            <script>
+                var menubtn = document.getElementById("menubtn")
+                var sidenavbar = document.getElementById("sidenavbar")
+                var menu = document.getElementById("menu")
+
+                menubtn.onclick = function(){
+                    if(sidenavbar.style.right == "-250px"){
+                        sidenavbar.style.right="0";
+                        menu.src = "./img/close.png";
+                    }
+                    else{
+                        sidenavbar.style.right = "-250px";
+                        menu.src = "./img/menu.png";
+                    }
+                }
+            </script>
+        <!-- </div> -->
+    </header>
+    <section class="sub-section1" id="home">
+        <div class="logo container">
+            <img src="./img/logo.png">
+        </div>
+        <div class="content">
+            <h1>Hair Studio</h1>
+            <p >Style Your Hair is Style Your Life</p>
+            <div class="banner-btn">
+                <a href="#" class="btn"><span></span>Find Out</a>
+                <a href="#" class="btn"><span></span>Read More</a>
+            </div>
+    </section>
+    <section class="sub-section2" id="features">
+        <div class="content-box">
+            <p>Features</p>
+            <h1>Why Choose US <span></span></h1>            
+        </div>
+        <div class="sub-section-content container">
+            <div class="text-box  ">
+                <div class="box">
+                    <h2 class="sub-section-h2">Experienced Staff</h2>
+                    <div class="item" >
+                        <i class="fa-sharp fa-solid fa-shield-halved fa-3x"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore, rerum aliquam doloribus eveniet illo.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2 class="sub-section-h2">Pre Booking Online</h2>
+                    <div class="item" >
+                        <i class="fa-sharp fa-solid fa-check-to-slot fa-3x"></i> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore, rerum aliquam doloribus eveniet illo.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2 class="sub-section-h2">Affordable Cost</h2>
+                    <div class="item" >
+                        <i class="fa-solid fa-indian-rupee-sign fa-3x"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore, rerum aliquam doloribus eveniet illo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box ">
+                <img src="./img/barber-man.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="sub-section3" id="services">
+        <div class="content-box">
+            <p>Services</p>
+            <h1>We Provide Better <span></span></h1>            
+        </div>
+        <div class="img-container container">
+            <div class="sub-img">
+                <img src="./img/pic-1.jpg" alt="">
+                <div class="img1">
+                <p>Hair Styling <span></span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero necessitatibus repellat! Molestias aut doloribus similique sunt unde perferendis optio.</p>
+                </div>
+            </div>
+
+            <div class="sub-img">
+                <img src="./img/pic-2.jpg" alt="">
+                <div class="img1">
+                    <p>Beard Trim<span></span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero necessitatibus repellat! Molestias aut doloribus similique sunt unde perferendis optio.</p>
+                    </div>
+            </div>
+
+            <div class="sub-img">
+                <img src="./img/pic-3.jpg" alt="">
+                <div class="img1">
+                    <p>Hair Cut <span></span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero necessitatibus repellat! Molestias aut doloribus similique sunt unde perferendis optio.</p>
+                    </div>
+            </div>
+
+            <div class="sub-img">
+                <img src="./img/pic-4.jpg" alt="">
+                <div class="img1">
+                    <p>Dry Shampoo <span></span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero necessitatibus repellat! Molestias aut doloribus similique sunt unde perferendis optio.</p>
+                    </div>
+            </div>            
+        </div>
+    </section>
+    <section class="sub-section4" id="testinomials">
+        <div class="content-box">
+            <p>Testinomial</p>
+            <h1>What Client Say<span></span></h1>            
+        </div>
+        <div class="client-container container">
+            <div class="client-box box1">
+                <div class="client-img"><img src="./img/img-1.jpg" alt=""></div>
+                <h3>KEN NORMAN  <i class="fa-brands fa-twitter"></i><a href="#">@kennorman</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repellendus et, sunt distinctio error suscipit debitis dolores non beatae dicta, ipsam esse blanditiis id adipisci.
+                </p>
+            </div>
+            <div class="client-box box2">
+                <div class="client-img"><img src="./img/img-2.jpg" alt=""></div>
+                <h3>Libra Karian  <i class="fa-brands fa-twitter"></i><a href="#">@librakarian</a></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque aperiam velit animi saepe exercitationem doloremque .
+                </p>
+            </div>
+            <div class="client-box box3">
+                <div class="client-img"><img src="./img/img-3.jpg" alt=""></div>
+                <h3>Ricky Danial  <i class="fa-brands fa-twitter"></i><a href="#">@rickydanial</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repellendus et, sunt distinctio error suscipit debitis dolores non beatae dicta, ipsam esse blanditiis id adipisci.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="sub-section5" id="contact">
+        <div class="content-box">
+            <p>Contact </p>
+            <h1>Visit Shop Today<span></span></h1>            
+        </div>
+        <div class="contact-img">
+            <img src="./img/footer-img.png" alt="">
+        </div>
+    
+        <div class="contact-div container">
+            <div class="sub-contact contact1">
+                <h2>Opening Hours</h2>
+                <p><i class="fa-regular fa-clock"></i> Monday To Friday-9am to 9am </p>
+                <p><i class="fa-regular fa-clock"></i> Saturday And Sunday-8am to 11am </p>
+            </div>
+            <div class="sub-contact contact2">
+                <h2>Get In Touch</h2>
+                <p>#30 xyz Colony xyz Area <i class="fa-solid fa-location-dot"></i></p>
+                <p>hairstudi123@gamil.com <i class="fa-sharp fa-solid fa-paper-plane"></i></p>
+                <p>+92-8766389400 <i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="icon-div container">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <p>&copy; copyright 2023 | MZ Web Designer</p>
+        </div>
+    </section>
+    <script>
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
+</body>
+</html>

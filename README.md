@@ -1,6 +1,5 @@
 #  Hair Studio Website – Responsive Front-End Project
-
-As part of my journey to enhance my front-end development skills, I built the **Hair Studio Website** — a responsive, interactive, and visually appealing landing page designed for a modern barber shop. This project demonstrates my ability to turn creative concepts into fully functional web experiences using **HTML**, **CSS**, and **JavaScript**.
+A responsive landing page for a **Hair Studio Website**, featuring service highlights and visually appealing landing page designed for a modern barber shop.. 
 
 ---
 
